@@ -1,0 +1,92 @@
+[
+  {
+    "id": "google-review-1",
+    "author": "Alice Gonçalves",
+    "initial": "A",
+    "avatarBg": "#2E7D32",
+    "rating": 5,
+    "date": "1 semana atrás",
+    "source": "Google",
+    "quote": "Excelente profissional! ❤️ Meu benefício já havia sido negado com outros dois advogados, mas graças ao trabalho, dedicação e competência da Dra. e de toda a equipe, finalmente consegui meu benefício. Sou muito grata por todo o suporte, atenção e comprometimento durante o processo. Recomendo de coração! 🙏✨"
+  },
+  {
+    "id": "google-review-2",
+    "author": "Matielle Tozzo",
+    "initial": "M",
+    "avatarBg": "#3949AB",
+    "rating": 5,
+    "date": "1 ano atrás",
+    "source": "Google",
+    "quote": "Super indico!! Dra Gabrielle é uma excelente profissional, muito atenciosa e carismática, Conseguiu com rapidez e agilidade resolver o problema de aposentadoria do meu pai. Muito obrigada pelo excelente atendimento."
+  },
+  {
+    "id": "google-review-3",
+    "author": "Rafael Fernandes",
+    "initial": "R",
+    "avatarBg": "#0288D1",
+    "rating": 5,
+    "date": "9 meses atrás",
+    "source": "Google",
+    "quote": "Super indico!! Excelente profissional, me deu apoio desde do início do processo , com menos de 4 meses meu processo foi aprovado, muito obrigado escritório de advocacia Barboza Queiroz."
+  },
+  {
+    "id": "google-review-4",
+    "author": "Joyce Rayra",
+    "initial": "J",
+    "avatarBg": "#8E24AA",
+    "rating": 5,
+    "date": "2 meses atrás",
+    "source": "Google",
+    "quote": "Ótimo atendimento! Me ajudou a conseguir minha licença maternidade. Muito atenciosos, tirando todas as duvidas."
+  },
+  {
+    "id": "google-review-5",
+    "author": "Kemilly Souza",
+    "initial": "K",
+    "avatarBg": "#D84315",
+    "rating": 5,
+    "date": "2 meses atrás",
+    "source": "Google",
+    "quote": "Foi muito boa muito atenciosos sempre transparentes em tudo. A equipe é muito competente só tenho que agradecer e indico para todo mundo."
+  },
+  {
+    "id": "google-review-6",
+    "author": "Silvia Renata",
+    "initial": "S",
+    "avatarBg": "#00897B",
+    "rating": 5,
+    "date": "10 meses atrás",
+    "source": "Google",
+    "quote": "A minha experiência foi rápida e muito eficiente não demorou muito para mim ter um retorno maravilhoso Meus parabéns para todos vocês do Barbosa Queiroz"
+  },
+  {
+    "id": "google-review-7",
+    "author": "Bianca Ferreira",
+    "initial": "B",
+    "avatarBg": "#C62828",
+    "rating": 5,
+    "date": "8 meses atrás",
+    "source": "Google",
+    "quote": "Um excelente trabalho um bom atendimento e responsável"
+  },
+  {
+    "id": "google-review-8",
+    "author": "Kemelly Gomes",
+    "initial": "K",
+    "avatarBg": "#455A64",
+    "rating": 5,
+    "date": "11 meses atrás",
+    "source": "Google",
+    "quote": "Maravilhosa super educada responsável obrigada por me ajuda no meu caso"
+  },
+  {
+    "id": "google-review-9",
+    "author": "Laura Ananias",
+    "initial": "L",
+    "avatarBg": "#00ACC1",
+    "rating": 5,
+    "date": "11 meses atrás",
+    "source": "Google",
+    "quote": "Um ótimo atendimento , com resoluções super rápida!"
+  }
+]

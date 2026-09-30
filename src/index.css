@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --wine: #883D52;
+  --slate: #465456;
+  --ink: #263638;
+  --paper: #FCFAF8;
+  --rose-soft: #F6EEEE;
+  --white: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--slate);
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Bloqueia o cursor de texto piscante (caret) em todo o site ao clicar */
+*, *::before, *::after {
+  caret-color: transparent !important;
+}
+
+input, textarea, [contenteditable="true"] {
+  caret-color: auto !important;
+}
+
+/* Keyframe animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Accessible focus ring */
+.focus-ring:focus-visible {
+  outline: 2px solid var(--wine);
+  outline-offset: 3px;
+}
+
+/* Soft mask for blending photo with background on desktop */
+@media (min-width: 1024px) {
+  .hero-photo-mask {
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 14%, black 100%);
+    mask-image: linear-gradient(to right, transparent 0%, black 14%, black 100%);
+  }
+}
+
+/* Esmaece as bordas da imagem decorativa da Justiça (evita caixa retangular visível) */
+.lady-fade {
+  -webkit-mask-image: radial-gradient(ellipse 62% 66% at 50% 46%, #000 38%, transparent 100%);
+  mask-image: radial-gradient(ellipse 62% 66% at 50% 46%, #000 38%, transparent 100%);
+}
+
+/* Prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Utilitário para ocultar barra de rolagem em carrosséis mantendo a rolagem ativa */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
